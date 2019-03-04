@@ -4,7 +4,7 @@
         Title="In the Hood: The Thug Life: Amish Ginger" Height="404.405" Width="693.832">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="C:/CodeDay/dah hood.png"/>
+            <ImageBrush ImageSource="../CodeDay/dah hood.png"/>
         </Grid.Background>
         <Button x:Name="OriginButton" Content="Make a Move!" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="228" Click="OriginButton_Click" Height="37" FontSize="22">
             <Button.Background>

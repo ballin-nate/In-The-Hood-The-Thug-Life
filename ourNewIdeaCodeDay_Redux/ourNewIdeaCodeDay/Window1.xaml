@@ -4,7 +4,7 @@
         Title="Cutscene 1"  Height="404.405" Width="693.832">
     <Grid x:Name="TheGrid">
         <Grid.Background>
-            <ImageBrush ImageSource="C:/CodeDay/dah hood.png"/>
+            <ImageBrush ImageSource="../CodeDay/dah hood.png"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="274*"/>

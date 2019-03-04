@@ -63,27 +63,27 @@ namespace ourNewIdeaCodeDay
             //SkipButton.Visibility = System.Windows.Visibility.Visible;
             userCanStrike = true;
                 
-                CharImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Character/character.png"));
+                CharImgBox.Source = new BitmapImage(new Uri("../CodeDay/Character/character.png", UriKind.Relative));
                
                 char1.name = "Steve";
                 char1.energy = 85;
                 char1.health = 90;
                 char1.swaglevel = 0;
-                char1.possibleMoves.Add(new moves() { name = "Shank", description = "basic attack", cost = 6, damage = 8, spriteLocation = "C:/CodeDay/Character/character shank.png" });
-                char1.possibleMoves.Add(new moves() { name = "Weed(medical)", description = "Healing and energy!", damage = 0, heal = 20, cost = -5, spriteLocation = "C:/CodeDay/Character/Character dope.png" });
-                char1.possibleMoves.Add(new moves() { name = "Pop a cap", description = "pop a cap in his ass!", cost = 15, damage = 14, spriteLocation = "C:/CodeDay/Character/character shooting.png" });
-                char1.possibleMoves.Add(new moves() { name = "Nutshot", description = "Use sparingly.  Causes revenge.", damage = 29, cost = 30, spriteLocation = "C:/CodeDay/Character/character kick.png" });
+                char1.possibleMoves.Add(new moves() { name = "Shank", description = "basic attack", cost = 6, damage = 8, spriteLocation = "../CodeDay/Character/character shank.png" });
+                char1.possibleMoves.Add(new moves() { name = "Weed(medical)", description = "Healing and energy!", damage = 0, heal = 20, cost = -5, spriteLocation = "../CodeDay/Character/Character dope.png" });
+                char1.possibleMoves.Add(new moves() { name = "Pop a cap", description = "pop a cap in his ass!", cost = 15, damage = 14, spriteLocation = "../CodeDay/Character/character shooting.png" });
+                char1.possibleMoves.Add(new moves() { name = "Nutshot", description = "Use sparingly.  Causes revenge.", damage = 29, cost = 30, spriteLocation = "../CodeDay/Character/character kick.png" });
 
-                //EnemyImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Amish King/Amish king attack.gif"));
-                EnemyImgElement.Source = new Uri("C:/CodeDay/Amish King/Amish king attack.gif");
+            //EnemyImgBox.Source = new BitmapImage(new Uri("../CodeDay/Amish King/Amish king attack.gif", UriKind.Relative));
+            EnemyImgElement.Source = new Uri("../CodeDay/Amish King/Amish king attack.gif", UriKind.Relative);
                 EnemyImgElement.Play();
                 noobFighter.name = "AHMISH KING";
                 noobFighter.health = 100;
                 noobFighter.energy = 100;
                 noobFighter.swaglevel = 10;
-                noobFighter.possibleMoves.Add(new moves() { name = "Chain", description = "You shall be slain at MY hand", cost = 6, damage = 7, spriteLocation = "C:/CodeDay/Amish King/Amish king chain.gif" });
-                noobFighter.possibleMoves.Add(new moves() { name = "Lazor", description = "BURN AT THE HAND OF THE LORD!", damage = 30, cost = 25, spriteLocation = "C:/CodeDay/Amish King/Amish king fire.gif" });
-                noobFighter.possibleMoves.Add(new moves() { name = "Belt", description = "You gonna get a whoopun, son!", cost = 17, damage = 17, spriteLocation = "C:/CodeDay/Amish King/Amish king belt.gif" });
+                noobFighter.possibleMoves.Add(new moves() { name = "Chain", description = "You shall be slain at MY hand", cost = 6, damage = 7, spriteLocation = "../CodeDay/Amish King/Amish king chain.gif" });
+                noobFighter.possibleMoves.Add(new moves() { name = "Lazor", description = "BURN AT THE HAND OF THE LORD!", damage = 30, cost = 25, spriteLocation = "../CodeDay/Amish King/Amish king fire.gif" });
+                noobFighter.possibleMoves.Add(new moves() { name = "Belt", description = "You gonna get a whoopun, son!", cost = 17, damage = 17, spriteLocation = "../CodeDay/Amish King/Amish king belt.gif" });
 
 
 
@@ -136,7 +136,7 @@ namespace ourNewIdeaCodeDay
             
             updateStuff();
             await sleeper(2);
-            CharImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Character/character.png"));
+            CharImgBox.Source = new BitmapImage(new Uri("../CodeDay/Character/character.png", UriKind.Relative));
         }
         public async void enemyStrike()
         {
@@ -149,8 +149,8 @@ namespace ourNewIdeaCodeDay
                 moves move = noobFighter.possibleMoves[index];
                 if (noobFighter.energy - move.cost > -1)
                 {
-                    //EnemyImgBox.Source = new BitmapImage(new Uri(move.spriteLocation));
-                    EnemyImgElement.Source = new Uri(move.spriteLocation);
+                    //EnemyImgBox.Source = new BitmapImage(new Uri(move.spriteLocation, UriKind.Relative));
+                    EnemyImgElement.Source = new Uri(move.spriteLocation, UriKind.Relative);
                     char1.health = char1.health - move.damage;
                     noobFighter.energy = noobFighter.energy - move.cost;
                     ChatBox.AppendText(noobFighter.name + " used " + move.name + "." + Environment.NewLine + move.description + Environment.NewLine);
@@ -161,7 +161,7 @@ namespace ourNewIdeaCodeDay
                 }
                 updateStuff();
                 await sleeper(2);
-                EnemyImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Amish King/Amish king attack.gif"));
+                EnemyImgBox.Source = new BitmapImage(new Uri("../CodeDay/Amish King/Amish king attack.gif", UriKind.Relative));
                 }
             if (didStrike == false)
             {
@@ -181,14 +181,14 @@ namespace ourNewIdeaCodeDay
         {
             if (outcome == true)
             {
-                //EnemyImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Victory.png"));
-                EnemyImgElement.Source = new Uri("C:/CodeDay/Victory.png");
+                //EnemyImgBox.Source = new BitmapImage(new Uri("../CodeDay/Victory.png", UriKind.Relative));
+                EnemyImgElement.Source = new Uri("../CodeDay/Victory.png", UriKind.Relative);
                 MessageBox.Show("You won","Continue?",MessageBoxButton.YesNo);
             }
             else
             {
                 MoveDescriptionBlock.Text = "You lost";
-                CharImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Defeat.png"));
+                CharImgBox.Source = new BitmapImage(new Uri("../CodeDay/Defeat.png", UriKind.Relative));
                 MessageBox.Show("You lost","",MessageBoxButton.OK);
                 //this.Close();
                 

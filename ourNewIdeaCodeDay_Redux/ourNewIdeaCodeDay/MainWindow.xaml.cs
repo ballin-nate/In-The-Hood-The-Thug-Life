@@ -27,9 +27,9 @@ namespace ourNewIdeaCodeDay
         {
             public static void checkforFiles()
             {
-                if (!Directory.Exists("C:/CodeDay"))
+                if (!Directory.Exists("../CodeDay"))
                 {
-                    MessageBox.Show("It seems that a required folder is missing. Please copy the the folder \"CodeDay\" from the download into the \"C:\" drive.  If you do it correctly, the program should work.");
+                    MessageBox.Show("It seems that a required folder is missing. Please copy the the folder \"CodeDay\" from the download into the \"..\" drive.  If you do it correctly, the program should work.");
                     //MessageBox.Show("Now, this must close! >:)");
                     Environment.Exit(0);
                 }
@@ -74,7 +74,7 @@ namespace ourNewIdeaCodeDay
         }
         public MainWindow()
         {
-            firstThing.checker.checkforFiles();
+            //firstThing.checker.checkforFiles();
             InitializeComponent();
 
                 MessageBox.Show("So, this game is Pokemon-like in nature. When it is your turn, you select a move and click the big green button."+Console.Out.NewLine+"****To Install, download CodeDay.zip, extract the CodeDay folder, and paste the folder directly in C drive****");
@@ -82,26 +82,26 @@ namespace ourNewIdeaCodeDay
                 //SkipButton.Visibility = System.Windows.Visibility.Hidden;
                 userCanStrike = true;
                 
-                CharImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Character/character.png"));
+                CharImgBox.Source = new BitmapImage(new Uri("../CodeDay/Character/character.png", UriKind.Relative));
                
                 char1.name = "Steve";
                 char1.energy = 30;
                 char1.health = 30;
                 char1.swaglevel = 0;
-                char1.possibleMoves.Add(new moves() { name = "Shank", description = "basic attack", cost = 4, damage = 5, spriteLocation = "C:/CodeDay/Character/character shank.png" });
-                char1.possibleMoves.Add(new moves() { name = "Weed(medical)", description = "Healing and energy!", damage = 0, heal = 10, cost = -5, spriteLocation = "C:/CodeDay/Character/character dope.png" });
-                char1.possibleMoves.Add(new moves() { name = "Pop a cap", description = "pop a cap in his ass!", cost = 10, damage = 9, spriteLocation = "C:/CodeDay/Character/character shooting.png" });
-                char1.possibleMoves.Add(new moves() { name = "Nutshot", description = "Use sparingly.  Causes revenge.", damage = 15, cost = 30, spriteLocation = "C:/CodeDay/Character/Character kick.png" });
+                char1.possibleMoves.Add(new moves() { name = "Shank", description = "basic attack", cost = 4, damage = 5, spriteLocation = "../CodeDay/Character/character shank.png" });
+                char1.possibleMoves.Add(new moves() { name = "Weed(medical)", description = "Healing and energy!", damage = 0, heal = 10, cost = -5, spriteLocation = "../CodeDay/Character/character dope.png" });
+                char1.possibleMoves.Add(new moves() { name = "Pop a cap", description = "pop a cap in his ass!", cost = 10, damage = 9, spriteLocation = "../CodeDay/Character/character shooting.png" });
+                char1.possibleMoves.Add(new moves() { name = "Nutshot", description = "Use sparingly.  Causes revenge.", damage = 15, cost = 30, spriteLocation = "../CodeDay/Character/Character kick.png" });
 
-                EnemyImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Kenny/Kenny.png"));
+                EnemyImgBox.Source = new BitmapImage(new Uri("../CodeDay/Kenny/Kenny.png", UriKind.Relative));
                 noobFighter.name = "Kenny";
                 noobFighter.health = 20;
                 noobFighter.energy = 30;
                 noobFighter.swaglevel = 10;
-                noobFighter.possibleMoves.Add(new moves() { name = "Shank", description = "basic attack", cost = 4, damage = 5, spriteLocation = "C:/CodeDay/Kenny/Kenny shank.png" });
-                noobFighter.possibleMoves.Add(new moves() { name = "Weed(medical)", description = "Healing and energy!", damage = 0, heal = 10, cost = -5, spriteLocation = "C:/CodeDay/Kenny/kenny dope.png" });
-                noobFighter.possibleMoves.Add(new moves() { name = "Pop a cap", description = "pop a cap in his <DONKEY>", cost = 10, damage = 9, spriteLocation = "C:/CodeDay/Kenny/Kenny shootin.png" });
-                noobFighter.possibleMoves.Add(new moves() { name = "Nutshot", description = "Use sparingly.  Causes revenge.", damage = 15, cost = 30, spriteLocation = "C:/CodeDay/Kenny/Kenny kick.png" });
+                noobFighter.possibleMoves.Add(new moves() { name = "Shank", description = "basic attack", cost = 4, damage = 5, spriteLocation = "../CodeDay/Kenny/Kenny shank.png" });
+                noobFighter.possibleMoves.Add(new moves() { name = "Weed(medical)", description = "Healing and energy!", damage = 0, heal = 10, cost = -5, spriteLocation = "../CodeDay/Kenny/kenny dope.png" });
+                noobFighter.possibleMoves.Add(new moves() { name = "Pop a cap", description = "pop a cap in his <DONKEY>", cost = 10, damage = 9, spriteLocation = "../CodeDay/Kenny/Kenny shootin.png" });
+                noobFighter.possibleMoves.Add(new moves() { name = "Nutshot", description = "Use sparingly.  Causes revenge.", damage = 15, cost = 30, spriteLocation = "../CodeDay/Kenny/Kenny kick.png" });
 
 
                 for (int i = 0; i < char1.possibleMoves.Count(); i++)
@@ -126,7 +126,7 @@ namespace ourNewIdeaCodeDay
                     moves currentMove = char1.possibleMoves[MovesList.SelectedIndex];
                     if (char1.energy - currentMove.cost > -1)
                     {
-                        CharImgBox.Source = new BitmapImage(new Uri(currentMove.spriteLocation));
+                        CharImgBox.Source = new BitmapImage(new Uri(currentMove.spriteLocation, UriKind.Relative));
                         
                         noobFighter.health = noobFighter.health - currentMove.damage;
                         char1.energy = char1.energy - currentMove.cost;
@@ -157,7 +157,7 @@ namespace ourNewIdeaCodeDay
             
             updateStuff();
             await sleeper(2);
-            CharImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Character/character.png"));
+            CharImgBox.Source = new BitmapImage(new Uri("../CodeDay/Character/character.png", UriKind.Relative));
         }
         public async void enemyStrike()
         {
@@ -171,7 +171,7 @@ namespace ourNewIdeaCodeDay
                 moves move = noobFighter.possibleMoves[index];
                 if (noobFighter.energy - move.cost > -1)
                 {
-                    EnemyImgBox.Source = new BitmapImage(new Uri(move.spriteLocation));
+                    EnemyImgBox.Source = new BitmapImage(new Uri(move.spriteLocation, UriKind.Relative));
                     char1.health = char1.health - move.damage;
                     noobFighter.energy = noobFighter.energy - move.cost;
                     ChatBox.AppendText(noobFighter.name + " used " + move.name + "." + Environment.NewLine);
@@ -182,7 +182,7 @@ namespace ourNewIdeaCodeDay
                 }
                 //updateStuff();
                 await sleeper(2);
-                EnemyImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Kenny/Kenny.png"));
+                EnemyImgBox.Source = new BitmapImage(new Uri("../CodeDay/Kenny/Kenny.png", UriKind.Relative));
                 }
             if (didStrike == false)
             {
@@ -210,7 +210,7 @@ namespace ourNewIdeaCodeDay
 
                 if (outcome == true)
                 {
-                    EnemyImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Victory.png"));
+                    EnemyImgBox.Source = new BitmapImage(new Uri("../CodeDay/Victory.png", UriKind.Relative));
                     MessageBox.Show("Continue?", "You won", MessageBoxButton.OK);
                     Window1 s = new Window1();
                     s.Show();
@@ -219,7 +219,7 @@ namespace ourNewIdeaCodeDay
                 else
                 {
                     MoveDescriptionBlock.Text = "You lost";
-                    CharImgBox.Source = new BitmapImage(new Uri("C:/CodeDay/Defeat.png"));
+                    CharImgBox.Source = new BitmapImage(new Uri("../CodeDay/Defeat.png", UriKind.Relative));
                     MessageBox.Show("You lost", "", MessageBoxButton.OK);
                     //this.Close();
 

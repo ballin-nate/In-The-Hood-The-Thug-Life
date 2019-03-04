@@ -32,8 +32,8 @@ namespace ourNewIdeaCodeDay
             NaziChatBubble.Visibility = System.Windows.Visibility.Hidden;
             ChatBubble1.IsReadOnly = true;
             ChatBubble1.Visibility = System.Windows.Visibility.Hidden;
-            ProImg.Source = new BitmapImage(new Uri("C:/CodeDay/Character/character.png"));
-            AmishImg.Source = new BitmapImage(new Uri("C:/CodeDay/Amish King/Amish king attack.gif"));
+            ProImg.Source = new BitmapImage(new Uri("../CodeDay/Character/character.png", UriKind.Relative));
+            AmishImg.Source = new BitmapImage(new Uri("../CodeDay/Amish King/Amish king attack.gif", UriKind.Relative));
             for (int i = 0; i < 2; i++)
             {
                 if (chatCounter == 0)
