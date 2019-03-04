@@ -1,0 +1,33 @@
+﻿<Window x:Class="ourNewIdeaCodeDay.Level_1_Fight_2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="In the Hood: The Thug Life: Amish Ginger" Height="404.405" Width="693.832">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:/CodeDay/dah hood.png"/>
+        </Grid.Background>
+        <Button x:Name="OriginButton" Content="Make a Move!" HorizontalAlignment="Left" Margin="221,10,0,0" VerticalAlignment="Top" Width="228" Click="OriginButton_Click" Height="37" FontSize="22">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFC7F7B0" Offset="0"/>
+                    <GradientStop Color="#FF85E459" Offset="0.53"/>
+                    <GradientStop Color="#FFA6EA86" Offset="0.522"/>
+                    <GradientStop Color="#FF72CF46" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image x:Name="CharImgBox" HorizontalAlignment="Left" Height="160" Margin="10,196,0,0" VerticalAlignment="Top" Width="240"/>
+        <ListBox x:Name="MovesList" HorizontalAlignment="Left" Height="123" Margin="255,233,0,0" VerticalAlignment="Top" Width="160" SelectionChanged="MovesList_SelectionChange"/>
+        <Image x:Name="EnemyImgBox" HorizontalAlignment="Left" Height="160" Margin="420,196,0,0" VerticalAlignment="Top" Width="255"/>
+        <TextBlock x:Name="MoveDescriptionBlock" HorizontalAlignment="Left" Margin="255,196,0,0" TextWrapping="Wrap" Text="Item Description." VerticalAlignment="Top" Height="32" Width="160" FontSize="16"/>
+        <TextBlock x:Name="UserHealthBlock" HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="Health:" VerticalAlignment="Top" Height="37" Width="101" FontSize="22" TextAlignment="Center"/>
+        <TextBlock x:Name="UserEnergyBlock" HorizontalAlignment="Left" Margin="111,10,0,0" TextWrapping="Wrap" Text="Energy:" VerticalAlignment="Top" Height="37" Width="105" TextAlignment="Center" FontSize="22"/>
+        <TextBlock x:Name="EnemyHealthBlock" HorizontalAlignment="Left" Margin="565,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="110" TextAlignment="Center" FontSize="22"><Run Text="Health:"/></TextBlock>
+        <TextBlock x:Name="EnemyEnergyBlock" HorizontalAlignment="Left" Margin="454,10,0,0" TextWrapping="Wrap" Text="Energy:" VerticalAlignment="Top" Width="106" Height="34" FontSize="22" TextAlignment="Center"/>
+        <TextBox x:Name="ChatBox" HorizontalAlignment="Left" Height="86" Margin="255,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" IsReadOnly="True"/>
+        <Button x:Name="SkipButton" Content="Skip Level" HorizontalAlignment="Left" Margin="255,63,0,0" VerticalAlignment="Top" Width="160" Click="SkipButton_Click" Height="37" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="420,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Height="37" FontSize="22" TextAlignment="Center" Text="Enemy: Ezekiel"/>
+        <TextBlock HorizontalAlignment="Left" Margin="128,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="63" Width="122"><Run Text="Made by Nathan Ball, Max Plaugher,"/><LineBreak/><Run Text="and Belle Newcomb"/></TextBlock>
+
+    </Grid>
+</Window>

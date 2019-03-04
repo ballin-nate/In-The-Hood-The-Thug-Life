@@ -1,0 +1,45 @@
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\bin\Release\ourNewIdeaCodeDay.exe.config
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\bin\Release\ourNewIdeaCodeDay.exe
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\bin\Release\ourNewIdeaCodeDay.pdb
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level 1.baml
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1 Fight 2.baml
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Boss.baml
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Fight_3.baml
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\MainWindow.baml
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Window1.baml
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level 1.g.cs
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1 Fight 2.g.cs
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Boss.g.cs
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Fight_3.g.cs
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\MainWindow.g.cs
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Window1.g.cs
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\App.g.cs
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay_MarkupCompile.cache
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.g.resources
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.Properties.Resources.resources
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.csproj.GenerateResource.Cache
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.exe
+C:\Users\Dana\documents\visual studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\bin\Release\ourNewIdeaCodeDay.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\bin\Release\ourNewIdeaCodeDay.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\bin\Release\ourNewIdeaCodeDay.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level 1.baml
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1 Fight 2.baml
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Boss.baml
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Fight_3.baml
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\MainWindow.baml
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Window1.baml
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level 1.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1 Fight 2.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Boss.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Level_1_Fight_3.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\MainWindow.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\Window1.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\App.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay_MarkupCompile.cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.g.resources
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.Properties.Resources.resources
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\ourNewIdeaCodeDay\ourNewIdeaCodeDay\obj\Release\ourNewIdeaCodeDay.csproj.GenerateResource.Cache

@@ -1,0 +1,23 @@
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\bin\Debug\ourNewIdeaCodeDay_redux.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\bin\Debug\ourNewIdeaCodeDay_redux.exe
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\bin\Debug\ourNewIdeaCodeDay_redux.pdb
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\ourNewIdeaCodeDay_redux.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level 1.baml
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level_1 Fight 2.baml
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level_1_Boss.baml
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level_1_Fight_3.baml
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\MainWindow.baml
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Window1.baml
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level 1.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level_1 Fight 2.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level_1_Boss.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Level_1_Fight_3.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\MainWindow.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\Window1.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\App.g.cs
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\ourNewIdeaCodeDay_redux_MarkupCompile.cache
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\ourNewIdeaCodeDay_redux.g.resources
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\ourNewIdeaCodeDay_redux.Properties.Resources.resources
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\ourNewIdeaCodeDay_redux.csproj.GenerateResource.Cache
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\ourNewIdeaCodeDay_redux.exe
+C:\Users\Nathan\Documents\Visual Studio 2017\Projects\ourNewIdeaCodeDay_Redux\ourNewIdeaCodeDay\obj\Debug\ourNewIdeaCodeDay_redux.pdb
